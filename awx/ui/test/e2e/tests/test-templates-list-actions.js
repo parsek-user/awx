@@ -183,8 +183,8 @@ module.exports = {
         });
 
         checkNodeText('#node-1 text', 'START');
-        checkNodeText('#node-2 text', data.project.name);
-        checkNodeText('#node-3 text', data.template.name);
+        checkNodeText('#node-3 text', data.project.name);
+        checkNodeText('#node-4 text', data.template.name);
         checkNodeText('#node-4 text', data.source.name);
 
         templates.expect.element('@save').visible;
